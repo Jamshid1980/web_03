@@ -1,0 +1,128 @@
+/* GENERAL STYLES START */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    font-weight: bold;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* HEADER START */
+
+/* NAVBAR START */
+
+.container{
+    width: 1440px;
+}
+
+.container nav{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.container nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.container nav ul:nth-child(1){
+    width: 10%;
+    margin-left: 0;
+}
+
+.container nav ul:nth-child(2) {
+    font-size: 20px;
+    width: 20%;
+    margin-right: 0;
+}
+
+.container nav ul li{
+    list-style: none;
+}
+
+.container nav ul:nth-child(1) li:nth-child(1) {
+    margin-left: 0;
+}
+
+.container nav ul:nth-child(2) li:nth-child(3){
+    margin-right: 0;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR END */
+
+/* HEADER END */
+
+/* Main section start */
+
+.container-main-section{
+    background-color: red;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.container-main-section-text{
+    position: absolute;
+    padding-top: 10rem;
+    z-index: 1;
+}
+
+.container-main-section-text p:nth-child(1){
+    font-size: 69px;
+}
+
+.container-main-section-text p:nth-child(2) {
+    padding: 4rem 0 18rem 0;
+    font-size: 120px;
+    color: rgb(119, 113, 106);
+}
+
+.container-main-section-text form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.container-main-section-text form input{
+    margin-left: 0;
+    padding: 1rem 4rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 0.1rem solid red;
+}
+
+.container-main-section-text form button{
+    padding: 1.1rem;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.container-main-section-img{
+    position: absolute;
+    z-index: 0;
+    margin-right: 0;
+    right: 0;
+}
+
+/* Main section end */
+
+
+/* GENERAL STYLES END */
